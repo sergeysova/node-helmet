@@ -4,7 +4,8 @@
   "description": "Construct your html without hurt",
   "main": "lib/index.js",
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/LestaD/node-helmet#readme",
   "devDependencies": {
     "ava": "^0.23.0",
+    "coveralls": "^3.0.0",
     "eslint": "^4.10.0",
     "eslint-config-atomix-base": "^4.4.0",
     "nyc": "^11.3.0"
