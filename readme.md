@@ -1,4 +1,4 @@
-# node-helmet
+# node-helmet [![Build Status](https://travis-ci.org/LestaD/node-helmet.svg?branch=master)](https://travis-ci.org/LestaD/node-helmet) [![Coverage Status](https://coveralls.io/repos/github/LestaD/node-helmet/badge.svg?branch=master)](https://coveralls.io/github/LestaD/node-helmet?branch=master)
 
 Construct your html for server side rendering without pain.
 
