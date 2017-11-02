@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "arrow-parens": "off",
+    "no-magic-numbers": "off"
+  }
+}

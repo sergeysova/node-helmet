@@ -1,0 +1,36 @@
+{
+  "name": "node-helmet",
+  "version": "0.1.0",
+  "description": "Construct your html without hurt",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LestaD/node-helmet.git"
+  },
+  "keywords": [
+    "html",
+    "xml",
+    "node",
+    "construct",
+    "template",
+    "helmet",
+    "render",
+    "server",
+    "react"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LestaD/node-helmet/issues"
+  },
+  "homepage": "https://github.com/LestaD/node-helmet#readme",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "eslint": "^4.10.0",
+    "eslint-config-atomix-base": "^4.4.0",
+    "nyc": "^11.3.0"
+  }
+}
