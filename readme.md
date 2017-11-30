@@ -1,4 +1,4 @@
-# node-helmet [![Build Status](https://travis-ci.org/LestaD/node-helmet.svg?branch=master)](https://travis-ci.org/LestaD/node-helmet) [![codecov](https://codecov.io/gh/sergeysova/node-helmet/branch/master/graph/badge.svg)](https://codecov.io/gh/sergeysova/node-helmet)
+# node-helmet [![Build Status](https://travis-ci.org/LestaD/node-helmet.svg?branch=master)](https://travis-ci.org/LestaD/node-helmet) [![Codecov](https://img.shields.io/codecov/c/github/sergeysova/node-helmet.svg)](https://codecov.io/gh/sergeysova/node-helmet)
 
 
 Construct your html for server side rendering without pain.
