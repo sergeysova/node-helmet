@@ -63,6 +63,27 @@ test('stylesheet() with props', t => {
   t.is(r.toString(), tpl(expected.toString(), ''))
 })
 
+// .inlineStylesheet
+
+test('inlineStylesheet() should add <style></style> to head', t => {
+  const style = 'body { height: 100%; }'
+  const r = helmet().inlineStylesheet(style)
+  const expected = tag('style')
+    .attr('type', 'text/css')
+    .setChildren(style)
+  t.is(r.toString(), tpl(expected.toString(), ''))
+})
+
+test('inlineStylesheet() with props', t => {
+  const style = 'body { height: 100%; }'
+  const r = helmet().inlineStylesheet(style, { nonce: 'nonce' })
+  const expected = tag('style')
+    .attr('type', 'text/css')
+    .setChildren(style)
+    .attr('nonce', 'nonce')
+  t.is(r.toString(), tpl(expected.toString(), ''))
+})
+
 // .script
 
 test('script() should add <script> to body', t => {

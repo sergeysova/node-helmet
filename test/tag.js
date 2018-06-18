@@ -256,6 +256,10 @@ test('Tag.script(foo/bar)', t => {
   t.is(Tag.script('foo/bar').toString(), '<script type="foo/bar"></script>')
 })
 
+test('Tag.style(foo/bar)', t => {
+  t.is(Tag.style('foo/bar').toString(), '<style type="foo/bar"></style>')
+})
+
 // function
 
 test('tag(div) should equal new Tag(div)', t => {
